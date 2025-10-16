@@ -1,0 +1,60 @@
+2025-10-16T19:35:43.922103-0300 INFO Chamando função 'soma' com args (2, '3') e kwargs {} utils_log.py
+2025-10-16T19:35:43.922103-0300 ERROR Exceção capturada em 'soma': unsupported operand type(s) for +: 'int' and 'str' utils_log.py
+Traceback (most recent call last):
+
+  File "C:\Users\ppjon\WorkSpace\Jornada\aula_09_Bootcamp\exemplo00.py", line 11, in <module>
+    soma(2, "3")
+    └ <function soma at 0x000001C3AFE89E40>
+
+> File "C:\Users\ppjon\WorkSpace\Jornada\aula_09_Bootcamp\utils_log.py", line 24, in wrapper
+    result = func(*args, **kwargs)
+             │     │       └ {}
+             │     └ (2, '3')
+             └ <function soma at 0x000001C3AFBCA2A0>
+
+  File "C:\Users\ppjon\WorkSpace\Jornada\aula_09_Bootcamp\exemplo00.py", line 9, in soma
+    return x + y
+           │   └ '3'
+           └ 2
+
+TypeError: unsupported operand type(s) for +: 'int' and 'str'
+2025-10-16T19:40:05.887956-0300 INFO Chamando função 'pipeline' com args (WindowsPath('C:/Users/ppjon/WorkSpace/Jornada/aula_09_Bootcamp/data'), ['csv']) e kwargs {} utils_log.py
+2025-10-16T19:40:05.887956-0300 INFO Chamando função 'extrair_dados' com args (WindowsPath('C:/Users/ppjon/WorkSpace/Jornada/aula_09_Bootcamp/data'),) e kwargs {} utils_log.py
+2025-10-16T19:40:05.906984-0300 INFO Função 'extrair_dados' retornou             Produto    Categoria  Quantidade  Venda        Data
+0    Notebook Gamer  Eletrônicos           3   1500  2023-01-15
+1     Mouse Sem Fio  Eletrônicos          10     30  2023-01-15
+2  Teclado Mecânico  Eletrônicos           5    100  2023-01-15 utils_log.py
+2025-10-16T19:40:05.909013-0300 INFO Chamando função 'transformar_dados' com args (            Produto    Categoria  Quantidade  Venda        Data
+0    Notebook Gamer  Eletrônicos           3   1500  2023-01-15
+1     Mouse Sem Fio  Eletrônicos          10     30  2023-01-15
+2  Teclado Mecânico  Eletrônicos           5    100  2023-01-15,) e kwargs {} utils_log.py
+2025-10-16T19:40:05.913592-0300 INFO Função 'transformar_dados' retornou             Produto    Categoria  Quantidade  Venda        Data  Receita
+0    Notebook Gamer  Eletrônicos           3   1500  2023-01-15     4500
+1     Mouse Sem Fio  Eletrônicos          10     30  2023-01-15      300
+2  Teclado Mecânico  Eletrônicos           5    100  2023-01-15      500 utils_log.py
+2025-10-16T19:40:05.917085-0300 INFO Chamando função 'carregar_dados' com args (            Produto    Categoria  Quantidade  Venda        Data  Receita
+0    Notebook Gamer  Eletrônicos           3   1500  2023-01-15     4500
+1     Mouse Sem Fio  Eletrônicos          10     30  2023-01-15      300
+2  Teclado Mecânico  Eletrônicos           5    100  2023-01-15      500, ['csv']) e kwargs {} utils_log.py
+2025-10-16T19:40:05.920811-0300 INFO Função 'carregar_dados' retornou None utils_log.py
+2025-10-16T19:40:05.921807-0300 INFO Função 'pipeline' retornou None utils_log.py
+2025-10-16T19:45:58.892956-0300 INFO Chamando função 'soma' com args (2, '3') e kwargs {} utils_log.py
+2025-10-16T19:45:58.892956-0300 ERROR Exceção capturada em 'soma': unsupported operand type(s) for +: 'int' and 'str' utils_log.py
+Traceback (most recent call last):
+
+  File "C:\Users\ppjon\WorkSpace\Jornada\aula_09_Bootcamp\exemplo00.py", line 11, in <module>
+    soma(2, "3")
+    └ <function soma at 0x0000014B30E99300>
+
+> File "C:\Users\ppjon\WorkSpace\Jornada\aula_09_Bootcamp\utils_log.py", line 24, in wrapper
+    result = func(*args, **kwargs)
+             │     │       └ {}
+             │     └ (2, '3')
+             └ <function soma at 0x0000014B30BDA2A0>
+
+  File "C:\Users\ppjon\WorkSpace\Jornada\aula_09_Bootcamp\exemplo00.py", line 9, in soma
+    return x + y
+           │   └ '3'
+           └ 2
+
+TypeError: unsupported operand type(s) for +: 'int' and 'str'

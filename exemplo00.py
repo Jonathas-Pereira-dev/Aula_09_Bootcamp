@@ -1,22 +1,17 @@
-from loguru import logger
-import getpass
-username = getpass.getuser()
-#from sys import stderr
+from utils_log import log_decorator
+from timer_decorator import time_measure_decorator
+# pydantic
+# pandera
+import time
 
-logger.add("meu_log.log")
-
-#Trocando print por logger
-
-logger.add("meu_app.log", level="CRITICAL")
-
+@time_measure_decorator
+# @log_decorator
 def soma(x, y):
-    try:
-        soma = x + y
-        logger.info("soma realizada com sucesso{soma}")
-        return soma
-    except:
-        logger.critical("Erro ao somar")
+    time.sleep(2)
+    return x + y
 
 soma(2, "3")
 soma(2, 3)
+
+
 
