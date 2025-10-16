@@ -1,3 +1,5 @@
 2025-10-16 17:41:41.718 | INFO     | __main__:soma:8 - 2
 2025-10-16 17:41:41.718 | INFO     | __main__:soma:9 - 3
 2025-10-16 17:41:41.718 | INFO     | __main__:soma:10 - 5
+2025-10-16 17:57:42.453 | CRITICAL | __main__:soma:15 - Erro ao somar
+2025-10-16 17:57:42.453 | INFO     | __main__:soma:12 - soma realizada com sucesso{soma}
