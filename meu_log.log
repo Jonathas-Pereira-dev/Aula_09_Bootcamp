@@ -1,2 +1,8 @@
 2025-10-16 17:57:42.453 | CRITICAL | __main__:soma:15 - Erro ao somar
 2025-10-16 17:57:42.453 | INFO     | __main__:soma:12 - soma realizada com sucesso{soma}
+2025-10-16 18:00:43.057 | CRITICAL | __main__:soma:15 - Erro ao somar
+2025-10-16 18:00:43.059 | INFO     | __main__:soma:12 - soma realizada com sucesso{soma}
+2025-10-16 18:03:03.390 | CRITICAL | __main__:soma:16 - Erro ao somar
+2025-10-16 18:03:03.390 | INFO     | __main__:soma:13 - soma realizada com sucesso{soma}
+2025-10-16 18:05:01.447 | CRITICAL | __main__:soma:18 - Erro ao somar
+2025-10-16 18:05:01.448 | INFO     | __main__:soma:15 - soma realizada com sucesso{soma}
